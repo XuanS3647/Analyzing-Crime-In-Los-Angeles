@@ -20,12 +20,17 @@ The main goal of this project is to identify patterns in crime frequency across 
 ### 🌃 Which area has the highest frequency of night crimes
 (between 10 PM and 3:59 AM)?
 → Store as: peak_night_crime_location (string)
+<img width="468" height="24" alt="ba5aefaa-06aa-4b0b-8a45-a0002abfc2e6" src="https://github.com/user-attachments/assets/e2ab4216-57d2-413a-bbb3-144c64aa994f" />
+
 
 ### 👥 How many crimes were committed against victims of different age groups?
 → Store as: victim_ages (pandas Series)
 with the following index labels:
 
 "0-17", "18-25", "26-34", "35-44", "45-54", "55-64", "65+"
+
+<img width="294" height="180" alt="2dd6e6ef-a54e-4dba-ad8e-c15b5872fc67" src="https://github.com/user-attachments/assets/9c505c22-5e3f-4b24-98e9-2ffce6821b72" />
+
 
 ## 🧩 Dataset Description
 
