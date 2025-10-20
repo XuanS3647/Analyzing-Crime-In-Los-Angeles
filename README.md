@@ -15,6 +15,8 @@ The main goal of this project is to identify patterns in crime frequency across 
 ### 🕐 Which hour has the highest frequency of crimes?
 → Store as: peak_crime_hour (integer)
 
+<img width="582" height="435" alt="c83d99c5-1040-4c8e-8d19-41e9844ef194" src="https://github.com/user-attachments/assets/00c10368-58e4-4d30-b34b-ea0461f62ae8" />
+
 ### 🌃 Which area has the highest frequency of night crimes
 (between 10 PM and 3:59 AM)?
 → Store as: peak_night_crime_location (string)
