@@ -4,7 +4,7 @@ A Data-Driven Approach to Understanding Urban Crime Patterns
 ## 📖 Overview
 
 Los Angeles, California — The City of Angels — is famous for its sunshine, beaches, and entertainment industry. However, like any major city, it faces significant challenges with crime.
-This project explores real-world crime data from the Los Angeles Police Department (LAPD) to uncover patterns in criminal activity, helping optimize resource allocation and enhance public safety.
+This project examines real-world crime data from the Los Angeles Police Department (LAPD) to identify patterns in criminal activity, thereby optimizing resource allocation and enhancing public safety.
 
 Using the crimes.csv dataset, this analysis applies Python and pandas to answer key questions about when and where crimes occur, and how victim demographics correlate with criminal incidents.
 
@@ -99,10 +99,10 @@ df = pd.read_csv("crimes.csv")
 #### Extract hour
 df["hour"] = pd.to_datetime(df["DATE_OCC"]).dt.hour
 
-#### 1. Hour with the highest crime frequency
+#### 1. The hour with the highest crime frequency
 peak_crime_hour = df["hour"].value_counts().idxmax()
 
-#### 2. Area with highest night crime frequency (10pm–3:59am)
+#### 2. Area with the highest night crime frequency (10 pm–3:59 am)
 night_df = df[(df["hour"] >= 22) | (df["hour"] <= 3)]
 peak_night_crime_location = night_df["AREA_NAME"].value_counts().idxmax()
 
@@ -127,4 +127,4 @@ Add spatial mapping (e.g., using folium or geopandas) to visualize hotspots.
 
 Perform seasonal or day-of-week analysis for time-based crime trends.
 
-Integrate predictive modeling for resource planning.
+Integrate predictive modelling for resource planning.
